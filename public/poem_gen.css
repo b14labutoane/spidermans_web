@@ -1,8 +1,9 @@
 body {
     min-height: 100vh;
     overflow-x: hidden;
-    background-image: linear-gradient(to top,	#f3e8d6 0%, 	#fffefc 100%);
+    background-image: url(assets/backgdnebun.jpeg);
     min-height: 100vh;
+    background-size: cover;
     font-family: "Montserrat-Regular";
     color: #fff;
     font-size: 15px;
@@ -10,7 +11,7 @@ body {
 }
 
 .backdrop {
-    background-color: rgba(70, 97, 91, 0.1);
+    background-color: rgba(70, 97, 91, 0.5);
     text-align: center;
     padding: 20px 20px;
     color: rgb(30, 79, 47);
