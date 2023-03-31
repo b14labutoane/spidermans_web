@@ -1,0 +1,10 @@
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(to top,	#f3e8d6 0%, 	#fffefc 100%);
+    min-height: 100vh;
+    font-family: "Montserrat-Regular";
+    color: #fff;
+    font-size: 15px;
+    margin: 0;
+}
