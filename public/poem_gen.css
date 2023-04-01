@@ -10,7 +10,7 @@ body {
 }
 
 .backdrop {
-    background-color: rgba(70, 97, 91, 0.5);
+    background-color: rgba(70, 97, 91, 0.7);
     text-align: center;
     padding: 20px;
     color: rgb(30, 79, 47);
@@ -20,8 +20,15 @@ body {
      margin-right: 8%;
     margin-top: 5%;
     margin-bottom: 10%;
-    max-width: 1000px;
+
     vertical-align: middle;
+    width: 70%;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
 
 .form-floating {
