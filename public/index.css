@@ -1,3 +1,8 @@
+* {
+    font-family: BioRhyme;
+    line-height: 1.2;
+    font-weight: 400;
+}
 .box {
     background-color: lightblue;
     border: 1px solid blue;
@@ -20,11 +25,13 @@ body {
     border-radius: 8px;
 }
 .text1 {
+
     margin-top: 20px;
     border-radius: 8px;
     background-color: 	rgba(86,53,23,0.75);
     color: white;
     padding: 10px;
+    font-size: 1.4rem;
 }
 .btn-gen {
     border-radius: 8px;
@@ -87,4 +94,16 @@ a {
   }
   .text1:hover {
     color: antiquewhite;
+  }
+
+  .cont {
+    margin: 60px;
+  }
+
+  .titlu {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 50px;
   }
