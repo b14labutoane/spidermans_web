@@ -1,0 +1,117 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.box {
+    background-color: lightblue;
+    border: 1px solid blue;
+    min-height: 50px;
+    font-size: 2rem;
+}
+body {
+    padding: 10%;
+    background-image: url(../assets/bkindex.png);
+    background-size: cover;
+}
+.p1 {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid black;
+
+}
+.bord {
+    border-radius: 8px;
+}
+.text1 {
+
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: 	rgba(86,53,23,0.75);
+    color: white;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+.btn-gen {
+    border-radius: 8px;
+border: 0;
+font-size: 1.8rem;
+font-weight: 600;
+margin: 1rem 0;
+padding: 2rem 3rem;
+text-transform: uppercase;
+white-space: nowrap;
+background-color: 	rgba(86,53,23,0.75);
+
+width: 100%;
+display: inline-block;
+
+}
+
+.btn-gen:hover {
+    background-color: rgba(86, 53, 23, 0.7);
+}
+
+@media screen and (min-width: 1024px) {
+    .btn-gen {
+        font-size: 1.5rem;
+
+    }
+}
+.limit {
+    width: 300px;
+    height: 500px;
+    max-height: 500px;
+    overflow: hidden;
+}
+.limit img {
+    width: 100%;
+    height: 100%;
+}
+.image-section {
+    height: 300px;
+    overflow: hidden;
+}
+img {
+    width: 100%;
+}
+
+
+.text1:hover { 
+    background-color: rgba(86, 53, 23, 0.7);
+    color: aliceblue;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  a:hover {
+    color: antiquewhite;
+  }
+  .text1:hover {
+    color: antiquewhite;
+  }
+
+  .cont {
+    margin: 60px;
+  }
+
+  .titlu {
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.8rem;
+    margin-bottom: 50px;
+  }
+
+  .image-section2 {
+    height: 400px;
+    overflow: hidden;
+}
+.mb {
+    margin-bottom: 50px;
+}
