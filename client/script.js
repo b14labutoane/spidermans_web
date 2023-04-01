@@ -78,7 +78,7 @@ console.log(theme);
 
 const uniqueId=generateUniqueId();
     // specific message div 
-    const messageDiv = document.getElementById(uniqueId)
+   // const messageDiv = document.getElementById(uniqueId)
 
     // messageDiv.innerHTML = "..."
 //    loader(messageDiv)
@@ -108,7 +108,7 @@ temp.innerHTML=parsedData;
     } else {
         const err = await response.text()
 
-        messageDiv.innerHTML = "Something went wrong"
+        //messageDiv.innerHTML = "Something went wrong"
         alert(err)
     }
 }
