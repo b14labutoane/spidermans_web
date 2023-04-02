@@ -44,8 +44,9 @@ main {
     color: white;
     font-weight: bold;
     text-align: center;
-    font-size: 4.8rem;
+    font-size: 3rem;
     margin-bottom: 50px;
+    padding: 10px;
 }
 .mb {
     margin-bottom: 50px;

@@ -104,7 +104,7 @@ a {
 
     font-weight: bold;
     text-align: center;
-    font-size: 4.8rem;
+    font-size: 3.3rem;
     margin-bottom: 50px;
   }
 
@@ -112,6 +112,12 @@ a {
     height: 400px;
     overflow: hidden;
 }
-.mb {
-    margin-bottom: 50px;
+
+.text2 {
+
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    font-size: 1.4rem;
 }
