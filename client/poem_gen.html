@@ -55,7 +55,7 @@
     </div>
     <main>
       <div class="backdrop">
-        <!-- exemplu de formular + buton -->
+        <div class="rellax mb" data-rellax-speed="4"> <span class="titlu auto-type" !important></span></div>
         <form method="post" novalidate>
           <div class="form-floating">
             <input
@@ -91,8 +91,8 @@
             <div class="invalid-feedback">Invalid theme!</div>
           </div>
           <button
-            class="btn"
-            style="margin-top: 20px; background-color: rgb(70, 97, 91); color: white;"
+            class="btn subm" !impoortant
+            style="margin-top: 20px; background-color: white; color:  rgb(70, 97, 91); font-weight: bolder; border: 1px solid  rgb(70, 97, 91);;"
             data-bs-toggle="modal"
             data-bs-target="#modal"
           >
@@ -127,10 +127,19 @@
       </div>
       <script type="module" src="script.js"></script>
     </main>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Put Ghosty to work!"],
+        typeSpeed: 110, 
+        backSpeed: 110,
+        loop: true
+      })
+   </script>
   </body>
 </html>

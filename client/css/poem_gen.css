@@ -8,19 +8,22 @@ body {
     color: #fff;
     margin: 0;
 }
-
+* {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.2;
+    font-weight: 400;
+}
 .backdrop {
     background-color: rgba(70, 97, 91, 0.7);
     text-align: center;
     padding: 20px;
     color: rgb(30, 79, 47);
-        ;position: relative;
+        position: relative;
      border-radius: 15px; 
      margin-left: 8%;
      margin-right: 8%;
     margin-top: 5%;
     margin-bottom: 10%;
-
     vertical-align: middle;
     width: 70%;
 
@@ -33,4 +36,16 @@ main {
 
 .form-floating {
     margin: 10px;
+}
+
+
+.titlu {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.8rem;
+    margin-bottom: 50px;
+}
+.mb {
+    margin-bottom: 50px;
 }
