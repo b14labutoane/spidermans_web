@@ -1,9 +1,9 @@
 import bot from './assets/bot.svg'
 import user from './assets/user.svg'
 
-const form = document.querySelector('form')
-
-let loadInterval
+const form = document.querySelector('form');
+var parsedData;
+let loadInterval;
 
 function loader(element) {
     element.textContent = ''
@@ -100,7 +100,7 @@ console.log(JSON.stringify({
 
     if (response.ok) {
         const data = await response.json();
-        const parsedData = data.bot.trim() 
+        parsedData = data.bot.trim(); 
 console.log(parsedData);
 const temp=document.getElementById("poem");
 console.log(temp);
@@ -119,3 +119,11 @@ form.addEventListener('keyup', (e) => {
         handleSubmit(e)
     }
 })
+if("speechSynthesis" in window){
+    let demo=document.getElementById("btnpoem");
+    demo.onclick = () => {
+        let msg = new SpeechSynthesisUtterance(parsedData);
+        speechSynthesis.speak(msg);
+    };
+    demo.disabled= false;
+}
