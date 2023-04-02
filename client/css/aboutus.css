@@ -280,3 +280,7 @@ img {
     background: #222222;
 }
 
+.navbar a {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
