@@ -1,0 +1,21 @@
+Build documentation
+
+***In order to make this project work on your computer, please follow these steps:
+1. Open a terminal in the root of the project and use the 'cd client' command to move to the client folder.
+2. in the client folder, type:
+npm install
+and wait until all dependencies are installed
+3. type 'cd..' and then 'cd server' (without the ' sign) to get into the server folder
+4. in the server folder, type:
+npm install
+and wait until all dependencies are installed
+5. in the server folder, create a new empty file. It should be named ".env"
+paste the following into the empty .env document:
+OPENAI_API_KEY=""
+Please contact us in order to obtain the API key. Once you have it, paste it inbetween the two " (quote) signs
+
+***contact us at:
+email: tudoroana2005@gmail.com
+phone number: 0723605057
+
+***to access the project, paste the following URL in a browser
