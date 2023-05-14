@@ -1,4 +1,4 @@
-# Ghosty. the poem generator
+# Ghosty, the poem generator
 
 Ghosty is a poem generator that everyone can use if (and only if) they are out of inspiration^^
 
